@@ -1,10 +1,13 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
-import { Link } from 'react-router-dom'
-import propTypes from 'prop-types'
+import { Link } from 'react-router-dom';
+import propTypes from 'prop-types';
 
 export default function Button(props) {
     const className = [props.className]
     if(props.isPrimary) className.push("btn-primary");
+    if(props.isSecondary) className.push("btn-secondary");
+    if (props.isLight) className.push("btn-light");
     if(props.isLarge) className.push("btn-lg");
     if(props.isSmall) className.push("btn-sm");
     if(props.isBLock) className.push("btn-block");
@@ -74,6 +77,8 @@ Button.propTypes = {
     onClick: propTypes.func,
     target: propTypes.string,
     className: propTypes.string,
+    isPrimary: propTypes.bool,
+    isSecondary: propTypes.bool,
     isDisabled: propTypes.bool,
     isLoading: propTypes.bool,
     isSmall: propTypes.bool,
