@@ -1,5 +1,5 @@
 import React from "react";
-import TestimonyAccent from "assets/images/testimonial-landingpages-frame.svg";
+import TestimonyAccent from "assets/images/testimonial-landingpages.svg";
 
 import Star from "elements/Star";
 import Button from "elements/Button";
@@ -8,17 +8,18 @@ export default function Testimony({ data }) {
   return (
       <section className="container">
         <div className="row align-items-center">
-          <div className="col-auto" style={{ marginRight: 60 }}>
+          <div className="col-auto" style={{ marginRight: 70 }}>
             <div
               className="testimonial-hero"
               style={{ margin: `30px 0 0 30px` }}
             >
-              <img
-                src={`${process.env.REACT_APP_HOST}/${data.imageUrl}`}
+              {/* <img
+                //src={`${process.env.REACT_APP_HOST}/${data.imageUrl}`}
+                src={data.imageUrl}
                 alt="Testimonial"
                 className="position-absolute"
                 style={{ zIndex: 1 }}
-              />
+              /> */}
               <img
                 src={TestimonyAccent}
                 alt="Testimonial frame"
@@ -27,14 +28,14 @@ export default function Testimony({ data }) {
               />
             </div>
           </div>
-          <div className="col">
+          <div className="col-6">
             <h4 style={{ marginBottom: 40 }}>{data.name}</h4>
             <Star value={data.rate} width={35} height={35} spacing={4} />
             <h5 className="h2 font-weight-light line-height-2 my-3">
               {data.content}
             </h5>
-            <span className="text-gray-500">
-              {data.familyName}, {data.familyOccupation}
+            <span className="text-gray-900">
+              {data.familyName} {data.familyOccupation}
             </span>
 
             <div>
