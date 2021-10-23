@@ -88,7 +88,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-4.svg",
+          "imageUrl": "/images/image-category-4.jpg",
           "country": "Jakarta",
           "city": "Indonesia",
           "isPopular": false
@@ -97,7 +97,7 @@
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "Hotels with Large Kitchen",
+      "name": "Apartments with Kitchen Set",
       "items": [
         {
           "_id": "asd1293uasdads1",
@@ -118,7 +118,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Sheraton",
-          "imageUrl": "/images/image-category-7.svg",
+          "imageUrl": "/images/image-category-7.png",
           "country": "Surabaya",
           "city": "Indonesia",
           "isPopular": false
@@ -126,7 +126,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Four Points",
-          "imageUrl": "/images/image-category-8.svg",
+          "imageUrl": "/images/image-category-8.png",
           "country": "Surabaya",
           "city": "Indonesia",
           "isPopular": true
@@ -135,12 +135,12 @@
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "Apartments with kitchen set",
+      "name": "Hotels with Swimming Pool",
       "items": [
         {
           "_id": "asd1293uasdads1",
           "name": "PSW Antasari",
-          "imageUrl": "/images/image-category-9.svg",
+          "imageUrl": "/images/image-category-9.png",
           "country": "Bogor",
           "city": "Indonesia",
           "isPopular": false
@@ -148,7 +148,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Kuretakeso",
-          "imageUrl": "/images/image-category-10.svg",
+          "imageUrl": "/images/image-category-10.png",
           "country": "Tangerang",
           "city": "Indonesia",
           "isPopular": false
@@ -156,7 +156,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Arya Duta",
-          "imageUrl": "/images/image-category-11.svg",
+          "imageUrl": "/images/image-category-11.png",
           "country": "Malang",
           "city": "Indonesia",
           "isPopular": true
@@ -164,7 +164,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-12.svg",
+          "imageUrl": "/images/image-category-12.png",
           "country": "Bandung",
           "city": "Indonesia",
           "isPopular": false
