@@ -1,8 +1,5 @@
 import React from 'react';
 
-import IconCities from 'assets/images/icons/icon_cities.svg';
-import IconTreasure from 'assets/images/icons/icon_treasure.svg';
-import IconLocation from 'assets/images/icons/icon_location.svg';
 import ImageHero from 'assets/images/image_hero.png';
 import Button from 'elements/Button';
 import formatNumber from 'utils/formatNumber';
@@ -35,7 +32,7 @@ export default function Hero(props) {
                     <div className="row mt-5">
                         <div className="col-auto" style={{marginRight: 60}}>
                             <img  width="36" height="36"
-                            src={IconLocation} 
+                            src="assets/images/icon_location.svg"
                             alt={`${props.data.location} Location`}/>
                             <h6 classname="mt-3">
                                 {formatNumber(props.data.location)} <span className="text-gray-500 font-weight-light">
@@ -45,7 +42,7 @@ export default function Hero(props) {
                         </div>
                         <div className="col-auto" style={{marginRight: 60}}>
                             <img  width="36" height="36"
-                            src={IconTreasure} 
+                            src="assets/images/icon_treasure.svg" 
                             alt={`${props.data.treasure} Treasure`}/>
                             <h6 classname="mt-3">
                                 {formatNumber(props.data.treasure)} <span className="text-gray-500 font-weight-light">
@@ -55,7 +52,7 @@ export default function Hero(props) {
                         </div>
                         <div className="col-auto">
                             <img  width="36" height="36"
-                            src={IconCities} 
+                            src="assets/images/icon_cities.svg"
                             alt={`${props.data.cities} Cities`}/>
                             <h6 classname="mt-3">
                                 {formatNumber(props.data.cities)} <span className="text-gray-500 font-weight-light">
